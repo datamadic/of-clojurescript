@@ -1,0 +1,20 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "cj-parent",
+        "description": "clojurescript adapter",
+        "url": "http://local:3449/app.html",
+        "uuid": "cj-parent",
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "alpha"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "js adapter written in clojurescript",
+        "icon": "http://demoappdirectory.openf.in/desktop/config/apps/OpenFin/HelloOpenFin/img/openfin.ico",
+        "name": "cj-parent"
+    }
+}

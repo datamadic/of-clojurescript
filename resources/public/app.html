@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div id="app">
+      <h2>What if I told you...</h2>
+      <p id="t"></p>
+    </div>
+    <script>
+      fin.desktop.main(function(){
+        var rand = ~~(Math.random() * 1000);
+        fin.desktop.System.registerExternalConnection({uuid: 'sha-boom' + rand}, function(re){
+          var t = document.getElementById('t');
+          t.innerHTML = JSON.stringify(re);
+        })
+      })
+      
+    </script>
+  </body>
+</html>

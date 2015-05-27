@@ -20,7 +20,8 @@
     :builds [{:id "dev"
               :source-paths ["src"]
 
-              :figwheel { :on-jsload "adapter.core/on-js-reload" }
+              :figwheel {:websocket-host "local"  
+                         :on-jsload "adapter.core/on-js-reload" }
 
               :compiler {:main adapter.core
                          :asset-path "js/compiled/out"
